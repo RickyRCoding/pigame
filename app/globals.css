@@ -1,42 +1,58 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #fcca4c;
+  color: rgba(0, 0, 0, 0.779);
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.title {
+  text-align: center;
+  font-size: 4rem;
+  padding: 2rem;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+.explenation {
+  text-align: center;
+  font-size: 1.4rem;
 }
 
-a {
+.game-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 28rem);
+  gap: 2rem;
+  justify-content: center;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
   color: inherit;
   text-decoration: none;
+  width: min-content;
+  height: min-content;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+h2 {
+  margin-top: 0.4rem;
+}
+
+
+.card-content {
+  width: 20rem;
+  border-radius: 2rem;
+  padding: 1.2rem;
+  overflow: hidden;
+  margin: 20px;
+  transition: 200ms;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.6);
+}
+
+.card-content:hover {
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.6);
 }
