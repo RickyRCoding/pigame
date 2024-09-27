@@ -3,56 +3,91 @@ body {
   width: 100%;
   font-family: 'Courier New', Courier, monospace;
   background-color: #fcca4c;
+  text-align: center;
   color: rgba(0, 0, 0, 0.779);
 }
 
+.space {
+  height: 150svh;
+}
+
 .title {
-  text-align: center;
   font-size: 4rem;
   padding: 2rem;
 }
 
-.explenation {
-  text-align: center;
-  font-size: 1.4rem;
-}
-
-.game-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 28rem);
-  gap: 2rem;
-  justify-content: center;
-}
-
 a,
 a:hover,
-a:visited,
+a:focus,
 a:active {
-  color: inherit;
   text-decoration: none;
-  width: min-content;
-  height: min-content;
+  color: inherit;
 }
 
-h2 {
-  margin-top: 0.4rem;
-}
-
-
-.card-content {
-  width: 20rem;
-  border-radius: 2rem;
-  padding: 1.2rem;
-  overflow: hidden;
-  margin: 20px;
+.button {
+  background-color: #fbcc57;
+  border: 1.5rem solid #ffb700;
+  border-radius: 1rem;
+  padding: 2.6rem;
+  font-size: 2rem;
+  font-weight: 800;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  margin-bottom: 100px;
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
   transition: 200ms;
-  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.6);
-  -webkit-box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.6);
 }
 
-.card-content:hover {
-  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.6);
-  -webkit-box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.6);
+.button:hover {
+  background-color: #fbcc57;
+  border: 1.8rem solid #ffb700;
+  border-radius: 1rem;
+  padding: 2.6rem;
+  font-size: 2.7rem;
+  font-weight: 800;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  margin-bottom: 100px;
+  box-shadow: 0px 0px 74px -25px rgba(0, 0, 0, 0.75);
+  font-family: 'Courier New', Courier, monospace;
+  display: inline-block;
+}
+
+h3 {
+  padding-top: 4rem;
+}
+
+.selection {
+  text-align: center;
+  display: flex;
+  width: 75%;
+  justify-content: space-around;
+  margin: 3rem auto;
+}
+
+.radio {
+  height: 1.5rem;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin-bottom: 0.2rem;
+  accent-color: #ffb700;
+}
+
+.threepoint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+input[type="text"] {
+  padding: 1rem;
+  border: 0px;
+  background-color: #ffb700;
+  border-radius: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  outline: none;
 }
