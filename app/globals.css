@@ -91,3 +91,24 @@ input[type="text"] {
   font-family: 'Courier New', Courier, monospace;
   outline: none;
 }
+
+.ask {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  margin-bottom: 2rem;
+}
+
+.ask h3 {
+  padding-top: 0px;
+}
+
+.ask input[type="number"] {
+  padding: 1rem;
+  border: 0px;
+  background-color: #ffb700;
+  border-radius: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  outline: none;
+}

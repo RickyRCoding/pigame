@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Pi game",
-  description: "A game from that one nerdy kid.",
+  description: "A game from that one nerdy guy.",
 };
 
 export default function RootLayout({

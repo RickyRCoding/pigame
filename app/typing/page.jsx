@@ -3,7 +3,7 @@
 import { useState } from "react";
 import React from "react";
 import pi from "@/app/pi";
-import AfterGame from "../../components/AfterGame";
+import AfterGame from "../components/AfterGame";
 
 const Typing = () => {
   const [content, setContent] = useState(0);
@@ -19,7 +19,7 @@ const Typing = () => {
 
   return (
     <>
-      <h1 className="title">Ok, Geez...</h1>
+      <h1 className="title">Bet!</h1>
       <h2>Start typing as much digits as possible.</h2>
       <div className="threepoint">
         <p>3.</p>
