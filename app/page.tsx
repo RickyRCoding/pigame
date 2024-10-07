@@ -15,7 +15,7 @@ export default function Home() {
           marginBottom: "9rem",
         }}
       >
-        I'll be the one to decide that.
+        I&apos;ll be the one to decide that.
       </h3>
       <Link href="/typing" className="button">
         Try me!
