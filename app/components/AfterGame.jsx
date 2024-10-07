@@ -9,7 +9,10 @@ const AfterGame = () => {
         play again
       </Link>{" "}
       or{" "}
-      <a className="button" href="https://thatonenerdykid-smarted.vercel.app/">
+      <a
+        className="button"
+        href="https://rickyrcoding.github.io/thatonenerdyguy/"
+      >
         play another game
       </a>
       .
