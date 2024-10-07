@@ -6,9 +6,9 @@ export default function Home() {
       <h1 className="title">Pi Game</h1>
       <h3>So ... (scroll to continue)</h3>
       <div className="space"></div>
-      <h3>You think that your that one nerdy guy...</h3>
+      <h3>You think that you&apos;re that one nerdy guy...</h3>
       <div className="space"></div>
-      <h3>that knows like a bajilion digits of pi.</h3>
+      <h3>who knows like a bajilion digits of pi.</h3>
       <div className="space"></div>
       <h3
         style={{
