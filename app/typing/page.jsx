@@ -21,7 +21,12 @@ const Typing = () => {
     <>
       {after ? (
         <>
+          <h1 className="title">Oops!</h1>
           <h2>The correct digit was {after}.</h2>
+          <br />
+          <h2>You know {content} digits.</h2>
+          <br />
+          <br />
           <AfterGame />
         </>
       ) : (
