@@ -19,17 +19,20 @@ const Typing = () => {
 
   return (
     <>
-      <h1 className="title">Bet!</h1>
-      <h2>Start typing as much digits as possible.</h2>
-      <div className="threepoint">
-        <p>3.</p>
-        <input type="text" onChange={(e) => checkup(e.target.value)} />
-      </div>
-      <h2>You know {content} digits.</h2>
-      {after && (
+      {after ? (
         <>
           <h2>The correct digit was {after}.</h2>
           <AfterGame />
+        </>
+      ) : (
+        <>
+          <h1 className="title">Bet!</h1>
+          <h2>Start typing as much digits as possible.</h2>
+          <div className="threepoint">
+            <p>3.</p>
+            <input type="text" onChange={(e) => checkup(e.target.value)} />
+          </div>
+          <h2>You know {content} digits.</h2>
         </>
       )}
     </>
